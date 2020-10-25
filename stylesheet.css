@@ -35,7 +35,6 @@ a {
     font-weight: bold;
 }
 #content {
-    height: 100%;
     min-height: 400px;
     width: 50vw;
     min-width: 350px;
@@ -104,6 +103,7 @@ footer {
     color: #5F6368;
     position: absolute;
     bottom: 0;
+    margin-top: auto;
     width: 100%;
     min-width: 490px;
 }
