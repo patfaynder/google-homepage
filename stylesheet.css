@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif
 }
+body {
+    position: relative;
+}
 a {
     text-decoration: none;
     color: #000;
@@ -35,10 +38,11 @@ a {
     font-weight: bold;
 }
 #content {
-    min-height: 400px;
+    position: relative;
+    min-height: 100vh;
     width: 50vw;
     min-width: 350px;
-    margin: auto;
+    margin: 0px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -103,7 +107,7 @@ footer {
     color: #5F6368;
     position: absolute;
     bottom: 0;
-    margin-top: auto;
+    height: auto;
     width: 100%;
     min-width: 490px;
 }
