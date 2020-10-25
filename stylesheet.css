@@ -102,8 +102,8 @@ footer {
     background-color: #f2f2f2;
     border-top: 1px solid #e4e4e4;
     color: #5F6368;
-    bottom: 0px;
-    margin-top: 100%;
+    position: absolute;
+    bottom: 0;
     width: 100%;
     min-width: 490px;
 }
@@ -147,6 +147,6 @@ footer {
         margin: 0px;
     }
     #bot-footer-b {
-        margin-bottom: 20px;
+        margin-bottom: 20px
     }
 }
